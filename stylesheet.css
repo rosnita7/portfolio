@@ -18,18 +18,20 @@
 
 .hero_title{
   text-align: center;
+  position:absolute;
 }
 
 .hero_desc{
   text-align:center;
+  position:absolute;
 }
 
 /* Header for website */
-div.first {
+/*div.first {
   background-color: black;
   padding: 80px;
   margin-top: 50px;
-}
+}*/
 
 /* Div for content on site */
 div.second {
