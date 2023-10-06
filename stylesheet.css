@@ -8,21 +8,25 @@
   src: url('https://fonts.googleapis.com/css?family=Montserrat');
 }
 
+/* Header for website */
 div.first {
   background-color: black;
-  padding: 35px;
+  padding: 80px;
   margin-top: 50px;
 }
 
+/* Div for content on site */
 div.second {
   margin-left: 50px;
   margin-top: 25px;
 }
 
+/* Change fonts */
 h1 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: white;
+  font-size: 40px;
 }
 
 h2 {
@@ -37,4 +41,10 @@ h3 {
 
 p {
   font-family: 'Open Sans', sans-serif;
+}
+
+/* Change color on hover on navbar */
+.navbar a:hover {
+  background-color #ddd;
+  color: black;
 }
