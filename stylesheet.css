@@ -16,6 +16,10 @@ div.first {
   background-color: pink;
 }
 
+div.second {
+  margin-left: 50px;
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
