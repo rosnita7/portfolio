@@ -1,11 +1,15 @@
 @font-face {
   font-family:'Open Sans';
   src: url('https://fonts.googleapis.com/css?family=Open+Sans');
+  font-weight:normal;
+  font-style:normal;
 }
 
 @font-face {
   font-family:'Roboto Slab';
   src: url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+  font-weight: normal;
+  font-style:normal;
 }
 
 /* Background image */
