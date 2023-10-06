@@ -21,6 +21,12 @@ div.second {
   margin-top: 25px;
 }
 
+/* Div for image on website */
+div.third {
+  margin-left: auto;
+  margin-right:50;
+}
+
 /* Change fonts */
 h1 {
   font-family: 'Montserrat', sans-serif;
