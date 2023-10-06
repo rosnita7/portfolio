@@ -49,6 +49,10 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+img {
+  pointer-events: none;
+}
+
 /* Change color on hover on navbar */
 .navbar a:hover {
   background-color: #ddd;
