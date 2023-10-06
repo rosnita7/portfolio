@@ -23,7 +23,8 @@ div.second {
 
 /* Div for image on website */
 div.third {
-  float: right;
+  margin-right: 50px;
+  margin-left:auto;
 }
 
 /* Change fonts */
