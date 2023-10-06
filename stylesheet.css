@@ -51,6 +51,7 @@ p {
 
 img {
   pointer-events: none;
+  float: right;
 }
 
 /* Change color on hover on navbar */
