@@ -8,16 +8,12 @@
   src: url('https://fonts.googleapis.com/css?family=Montserrat');
 }
 
-.ml-5 {
-  margin-left: ($spacer * .25)
-}
-
 div.first {
   background-color: pink;
 }
 
 div.second {
-  margin-left: 50px;
+  margin: 50px;
 }
 
 h1 {
