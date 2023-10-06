@@ -53,18 +53,18 @@ div.third {
 
 /* Change fonts */
 h1 {
-  font-family: 'Roboto Slab';
+  font-family: 'Roboto Slab', serif;
   text-align: center;
   font-size: 40px;
 }
 
 h2 {
-  font-family: 'Roboto Slab';
+  font-family: 'Roboto Slab', serif;
   text-align: center;
 }
 
 h3 {
-  font-family: 'Roboto Slab';
+  font-family: 'Roboto Slab', serif;
 }
 
 p {
