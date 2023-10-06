@@ -11,7 +11,7 @@
 /* Background image */
 .bgimage {
   height: 100vh;
-  background: url("https://www.hdwallpapers.in/download/plant_leaves_water_drops_dark_background_4k_hd_nature-3840x2160.jpg");
+  background-color: black;
   background-size: cover;
   position:relative;
 }
