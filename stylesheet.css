@@ -50,6 +50,6 @@ p {
 
 /* Change color on hover on navbar */
 .navbar a:hover {
-  background-color #ddd;
+  background-color: #ddd;
   color: black;
 }
