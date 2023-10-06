@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family:'Montserrat';
-  src: url('https://fonts.googleapis.com/css?family=Montserrat');
+  font-family:'Roboto Slab';
+  src: url('https://fonts.googleapis.com/css?family=Roboto Slab');
 }
 
 /* Background image */
@@ -53,18 +53,18 @@ div.third {
 
 /* Change fonts */
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Slab', serif;
   text-align: center;
   font-size: 40px;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Slab', serif;
   text-align: center;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 p {
