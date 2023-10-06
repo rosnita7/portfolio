@@ -18,7 +18,7 @@ div.first {
 /* Div for content on site */
 div.second {
   margin-left: 50px;
-  margin-top: 25px;
+  margin-top: 50px;
 }
 
 /* Div for image on website */
@@ -49,10 +49,14 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* Align images to right */
 img {
   pointer-events: none;
   float: right;
 }
+
+.navbar a {
+  display: block;
 
 /* Change color on hover on navbar */
 .navbar a:hover {
