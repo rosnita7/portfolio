@@ -8,6 +8,22 @@
   src: url('https://fonts.googleapis.com/css?family=Montserrat');
 }
 
+/* Background image */
+.bgimage {
+  height: 100vh;
+  background: url("");
+  background-size: cover;
+  position:relative;
+}
+
+.hero_title{
+  text-align: center;
+}
+
+.hero_desc{
+  text-align:center;
+}
+
 /* Header for website */
 div.first {
   background-color: black;
