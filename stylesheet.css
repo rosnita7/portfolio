@@ -12,14 +12,20 @@
   margin-left: ($spacer * .25)
 }
 
+div.first {
+  background-color: pink;
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  color: white;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  color: white
 }
 
 h3 {
