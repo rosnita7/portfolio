@@ -84,9 +84,14 @@ img {
 
 .navbar a {
   display: block;
+}
 
 /* Change color on hover on navbar */
 .navbar a:hover {
   background-color: #ddd;
   color: black;
+}
+
+.navbar-custom {
+  background-color: #A62662
 }
