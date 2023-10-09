@@ -15,7 +15,7 @@
 /* Background image */
 .bgimage {
   height: 100vh;
-  background-color: black;
+  background-color: #591535;
   background-size: cover;
   position:relative;
 }
@@ -69,6 +69,7 @@ h2 {
 
 h3 {
   font-family: "Roboto Slab", serif;
+  color: #591535
 }
 
 p {
