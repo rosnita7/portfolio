@@ -1,12 +1,12 @@
 @font-face {
-  font-family:'Open Sans';
+  font-family:"Open Sans";
   src: url('https://fonts.googleapis.com/css?family=Open+Sans');
   font-weight:normal;
   font-style:normal;
 }
 
 @font-face {
-  font-family:'Roboto Slab';
+  font-family:"Roboto Slab";
   src: url('https://fonts.googleapis.com/css?family=Roboto+Slab');
   font-weight: normal;
   font-style:normal;
@@ -56,23 +56,23 @@ div.third {
 }
 
 /* Change fonts */
-h1 {
+.h1 {
   font-family: 'Roboto Slab', serif;
   text-align: center;
   font-size: 40px;
 }
 
 h2 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   text-align: center;
 }
 
 h3 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Align images to right */
