@@ -45,13 +45,13 @@ div.first {
 
 /* Div for content on site */
 div.second {
-  margin-left: 10%;
-  margin-top: 10%;
+  margin-left: 5%;
+  margin-top: 5%;
 }
 
 /* Div for image on website */
 div.third {
-  margin-right: 10%;
+  margin-right: 5%;
   margin-left:auto;
 }
 
