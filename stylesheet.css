@@ -79,7 +79,7 @@ p {
 /* Align images to right */
 img {
   pointer-events: none;
-  float: right;
+/*  float: right;*/
 }
 
 .navbar a {
