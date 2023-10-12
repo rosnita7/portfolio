@@ -17,7 +17,7 @@
   height: 100vh;
   background-color: #591535;
   background-size: cover;
-  position:absolute;
+  position:relative;
 }
 
 .hero_title{
