@@ -16,6 +16,14 @@ EMAIL: rsdey@uci.edu
 	<link rel="stylesheet" type="text/css" href="https://rosnita7.github.io/portfolio/stylesheet.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    	
 	<title> Rosnita Dey Portfolio </title>
+	<style>
+		footer {
+ 			text-align: center;
+  			padding: 7px;
+  			background-color: #AC8A9A;
+  			color: white;
+		}
+	</style>
 </head>
 <body>
 	<!-- Navigation bar -->
@@ -25,15 +33,19 @@ EMAIL: rsdey@uci.edu
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav">
+				<!-- Home button -->
 				<li class="nav-item">
 					<a class="nav-link active" href=#home>Home</a>
 				</li>
+				<!-- About Me button -->
 				<li class="nav-item">
 					<a class="nav-link active" href="#about">About Me</a>
 				</li>
+				<!-- Projects button -->
 				<li class="nav-item">
 					<a class="nav-link active" href="#projects">Projects</a>
 				</li>
+				<!-- Contact button -->
 				<li class="nav-item">
 					<a class="nav-link active" href="#contact">Contact</a>
 				</li>
@@ -76,6 +88,7 @@ EMAIL: rsdey@uci.edu
 		</div>
 	</section>
 
+	<!-- Projects section -->
 	<section id="projects">
 		<div class="container second">
 			<h3> Projects </h3>
@@ -96,25 +109,67 @@ EMAIL: rsdey@uci.edu
 		</div>
 	</section>
 
+	<!-- Contact section -->
 	<section id="contact">
 		<div class="container second">
 			<h3> Contact </h3>
+			
+			<!-- Contact form -->
+			<form id="fcf-form-id" class="fcf-form-class" method="post" action="action_page.php">
+
+				<!-- Input First Name -->
+				<div class="fcf-form-group">
+					<label for="fname" class="fcf-label">First Name</label>
+					<div class="fcf-input-group">
+						<input type="text" id="fname" name="firstname" class="fcf-form-control">
+					</div>
+				</div>
+
+				<!-- Input Last Name -->
+				<div class="fcf-form-group">
+    					<label for="lname" class="fcf-label">Last Name</label>
+					<div class="fcf-input-group">
+    						<input type="text" id="lname" name="lastname" class="fcf-form-control">
+					</div>
+				</div>
+
+				<!-- Input Email -->
+				<div class="fcf-form-group">
+    					<label for="email" class="fcf-label">Email</label>
+
+					<div class="fcf-input-group">
+						<input type="text" id="email" name="email" class="fcf-form-control">
+					</div>
+				</div>
+
+				<!-- Input Message -->
+				<div class="fcf-form-group">
+					<label for="message" class="fcf-label">Message </label>
+
+					<div class="fcf-input-group">
+						<textarea id="message" name="message" class="fcf-form-control" style="height:200px"></textarea>
+					</div>
+				</div>
+
+				<!-- Submit button -->
+				<div class="fcf-form-group">
+				<input type="submit" value="Submit" name="submit" id="fcf-button">
+				</div>
+				
+			</form>
 			<p>
-				Email: rosnitasdey@gmail.com
-			</p>
-			<p>
-				Phone: 408-823-1533
+				
 			</p>
 		</div>
 	</section>
 
-	<!-- w3c validator -->
-    	<p>
-      		<a href="http://validator.w3.org/check?uri=referer">
-        	W3C validator
-		</a>
-    	</p>
+	<!-- Footer for website -->
+	<footer>
+		<p>Author: Rosnita Dey<br>
+			<a href="mailto:rosnitasdey@gmail.com">rosnitasdey@gmail.com</a><br>
+			+1 (408) 823-1533
+		</p>
+	</footer>
+
 </body>
 </html>
-
-
