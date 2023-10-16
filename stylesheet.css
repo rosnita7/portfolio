@@ -50,11 +50,15 @@ div.second {
   padding-top: 5%;
 }
 
-/* Div for image on website */
-div.third {
-  margin-right: 5%;
-  margin-left:auto;
+/* Change design of footer */
+footer {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  padding: 3px;
+  background-color: #835068;
+  color: white;
 }
+
 
 /* Change fonts */
 h1 {
@@ -89,10 +93,61 @@ img {
 
 /* Change color on hover on navbar */
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: #EAE2E6;
   color: black !important;
 }
 
 .navbar-custom {
   background-color: #A62662
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #591535;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #835068;
+}
+
+.fcf-form-group {
+    margin-bottom: 1rem;
+}
+
+.fcf-input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.fcf-btn-primary {
+    color: #fff;
+    background-color: #591535;
+    border-color: #591535;
+}
+
+.fcf-btn-primary:hover {
+    color: #fff;
+    background-color: #835068;
+    border-color: #835068;
 }
